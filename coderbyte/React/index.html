@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Test</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module">
+        import React from 'react';
+        import { createRoot } from 'react-dom/client';
+        import Counter from './easy/simple_counter.js';
+        import DataList from './easy/list.js';
+        import Toggle from './easy/button_toggle.js';
+        import Application from './medium/phone_book.js';
+        import Game from './hard/tic_tac_toe.js';
+        import ColorSelector from './easy/color_dropdown.js';
+        import LiveText from './easy/live_paragraph.js';
+        import Application1 from './medium/letter_tiles.js';
+        import Applic from './hard/context_API.js';
+        import WeatherDashboard from './hard/weather_dashboard.js';
+        import QuizApp from './medium/quiz_builder.js';
+
+        const App = () => (
+            <div>
+                <h1>React Test</h1>
+                <Toggle />
+                <hr />
+                <Counter />
+                <hr />                
+                <DataList />
+                <hr />
+                <h2>Phone Book</h2>
+                <Application />
+                <hr />
+                <h2>Tic Tac Toe Game</h2>
+                <Game />
+                <hr />
+                <h2>Color Selector</h2>
+                <ColorSelector />
+                <hr />
+                <h2>Live Text</h2>
+                <LiveText />
+                <hr />
+                <h2>Letter Tiles</h2>
+                <Application1 />
+                <hr />
+                <Applic />
+                <hr />
+                <WeatherDashboard />
+                <hr />
+                <QuizApp />
+            </div>
+        );
+
+        const root = createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>
