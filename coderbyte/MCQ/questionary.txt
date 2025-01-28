@@ -1,0 +1,45 @@
+# MCQ
+
+1. Which porp type would you use to check that a property is an instance of a particular class?
+    Answer: PropTypes.instanceOf
+
+2. In React Native, how can you measure the dimensions and position of a view?
+    Answer: Using onLayout prop
+
+3. What does ChangeDetectionStrategy.OnPush do in Angular?
+    Answer: It sets change detection to check a component only when its input properties change or events are produced.
+
+4. How can you make a service singleton in Angular?
+    Answer: By providing it in the AppModule
+
+5. You're working on a .NET Core console application that reads that needs a pull configuration data from a proprietary configuration system not supported by the .NET Core. Ypur team decided to integrate the system into the .NET Core configuration pipeline. What would be your initial step in achieving this integration?
+    Answer: Implement a custom configuration provider by creating a class that adheres to the IConfigurationProvider interface.
+
+6. In .NET Core how would you force the garbage conllection to reclaim memory for objects that are no longer in use?
+    Answer: GC.Collect()
+
+7. Which class in .NET Core would you use to execute CPU-bound operations without blocking the main thread?
+    Answer: Task.Run()
+
+8. In a .NET Core application, if you need to capture detailed logs and telemetry for debugging and monitoring, which open-source library would you use?
+    Answer: Serilog
+
+9. In Azure Kubernetes Service (AKS), which component is responsible for mantaining the desired state of your deployed container applications?
+    Answer: kube-controller-manager 
+
+
+10. What Azure service uses distributed ledger technology to provide a plattform for creating multi-party applications across Azure and Azure Stack?
+    Answer: Azure Blockchain Workbench
+
+
+11. When deploying Azure Virtual Machines, which of the following VM series would be GPU-optimized?
+    Answer: NC-series
+
+12. In Azure Kubernetes Service, what is responsible for distributing incoming traffic among containers?
+    Answer: kube-proxy
+
+13. Which Azure Service provides a scalable and secure gateway for ingesting and sending billions of events per second?
+    Answer: Azure Event Grid
+
+14. For mission-critical systems requiring a recovery time of less than 10 seconds, which Azure disaster recovery option would be ideal?
+    Answer: Azure Availability Zones
