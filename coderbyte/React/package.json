@@ -6,7 +6,7 @@
     "my-react-test": "file:",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-native": "^0.77.0"
+    "react-native": "^0.79.0"
   },
   "devDependencies": {
     "parcel": "^2.0.0",
